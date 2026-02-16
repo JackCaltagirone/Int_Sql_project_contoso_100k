@@ -36,6 +36,4 @@ LEFT JOIN sales AS s
 GROUP BY category
 
 -- Sort alphabetically (or swap to DESC on a median column if ranking)
-ORDER BY category
-
-LIMIT 10;
+ORDER BY category;
