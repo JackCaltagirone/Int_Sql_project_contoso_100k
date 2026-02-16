@@ -23,6 +23,8 @@ ROUND(
 from product as p
     LEFT JOIN sales as s ON p.productkey = s.productkey
 
-GROUP BY p.categoryname Desc
+GROUP BY p.categoryname
+
+ORDER BY revenue_23 DESC
 
 limit 10
